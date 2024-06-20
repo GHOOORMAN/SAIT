@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+	background-color: #272727;
+	width: 1920px;
+}
+.header{
+	margin-left: 375px;
+	margin-top: 14px;
+	display: flex;
+	color: #e4e4e4;
+	font-family: arial;
+	font-size: 18px;
+	align-items: center;
+	position: fixed;
+	top: 14px;
+	z-index: 1;
+}
+.header a{
+	color: #e4e4e4;
+}
+.list_one{
+	margin-left: 375px;
+	margin-top: 199px;
+}
+.list_two{
+	margin-left: 375px;
+}
+.list_tri{
+	margin-top: 192px;
+	margin-left: 178px;
+}
+.footer{
+	background: linear-gradient(-83deg, #292929, #474747);
+	width: 1920px;
+	height: 238px;
+	margin-top: 218px;
+}
+.box_color{
+	background: linear-gradient(-43deg, #292929, #474747);
+	height: 2100px;
+	margin-top: 148px;
+}
+.header p{
+	margin-right: 145px;
+}
+.logo{
+	width: 162px;
+	height: 55px;
+	margin-right: 238px;
+}
+.img_one{
+	position:absolute;
+	top: 0px;
+	left: 900px;
+}
+.button_one{
+	padding: 11px 17px;
+	background-color: #E2A300;
+	margin-top: 107px;
+	filter: drop-shadow(0px 2px 4px #E2A300);
+	border: none;
+	border-radius: 6px;
+	font-weight: 700;
+}
+.block{
+	width: 346px;
+	height: 347px;
+	background-color: #272727;
+	border-radius: 29px;
+	margin-right: 65px;
+	margin-top: 65px;
+	display: grid;
+	place-items: center;
+	font-size: 32px;
+	font-family: arial;
+	color: #e4e4e4;
+}
+.block img{
+	margin-top: 40px;
+}
+.line{
+	display: flex;
+}
+.line_two{
+	display: flex;
+	margin-left: 205px;
+}
+.list_tri p{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 610px;
+	color: #e4e4e4;
+	font-size: 48px;
+	font-family: arial;
+}
+.port{
+	color: #e4e4e4;
+	font-family: arial;
+	font-size: 48px;
+	margin-top: 94px;
+	margin-left: 826px;
+}
+.arrow{
+	position: absolute;
+	left: 375px;
+	top: 3417px;
+}
+.block_two{
+	width: 770px;
+	height: 400px;
+	background: linear-gradient(-43deg, #292929, #474747);
+	border-radius: 29px;
+	filter: drop-shadow(0px 4px 15px rgba(27, 27, 27, 0.28));
+	margin-left: 475px;
+	padding: 100px 100px;
+	display: flex;
+	align-items: end;
+}
+.text_two{
+	margin-top: 49px;
+	margin-left: 604px;
+}
+.container{
+	position: absolute;
+	left: 1058px;
+	top: 4016px;
+}
+.icon_left{
+	margin-left: 20px;
+}
+.block_two .block{
+	width: 346px;
+	height: 347px;
+	background-color: #272727;
+	border-radius: 29px;
+	margin-right: 65px;
+	display: grid;
+	place-items: center;
+	font-size: 32px;
+	font-family: arial;
+	color: #e4e4e4;
+}
+.block_two p{
+	color: #e4e4e4;
+}
+.block_two a{
+	padding: 20px 30px;
+	background: linear-gradient(-43deg, #292929, #474747);
+	filter: drop-shadow(0px 4px 15px rgba(27, 27, 27, 0.28));
+	border-radius: 10px;
+	font-size: 36px;
+	font-family: arial;
+	color: #e4e4e4;
+	margin-left: 150px;
+}
+a{
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+<div class="center">
+	<div class="header">
+		<img src="images/logo.png" class="logo">
+		<a href="#one"><p>Главная</p></a>
+		<a href="#two"><p>Обо мне</p></a>
+		<a href="#tri"><p>Портфолио</p></a>
+		<a href="#footer"><p>Контакты</p></a>
+	</div>
+	<div class="list_one" id="one">
+		<img src="images/text_one.png"><br>
+		<button class="button_one">Связаться со мной</button>
+		<img src="images/img_one.png" class="img_one">
+	</div>
+	<div class="box_color">
+		<div class="list_two">
+			<div class="line">
+				<div class="block"><img src="images/icon_one.png"><p>Unfinished</p></div>
+				<div class="block"><img src="images/icon_two.png"><p>UX/UI Design</p></div>
+				<div class="block"><img src="images/icon_tri.png"><p>Logo Design</p></div>
+			</div>
+			<div class="line_two">
+				<a href="backend.html"><div class="block"><img src="images/icon_four.png"><p>Backend</p></div></a>
+				<div class="block"><img src="images/icon_five.png"><p>Frontend</p></div>
+			</div>
+		</div>
+		<div class="list_tri" id="two">
+			<p>Обо мне</p>
+			<img src="images/img_two.png">
+		</div>
+	</div>
+	<div class="list_four" id ="tri">
+		<p class="port">Портфолио</p>
+		<img src="images/icon_six.png" class="arrow">
+		<div class="block_two">
+			<div class="block"><img src="images/icon_four.png"><p>Backend</p></div>
+			<a href="backend.html">Перейти</a>
+		</div>
+	</div>
+	<div class="footer" id="footer">
+		<img src="images/text_two.png" class="text_two">
+		<div class="container">
+			<img src="images/logo_two.png">
+			<img src="images/icon_seven.png" class="icon_left">
+		</div>
+	</div>
+	
+</div>
+
+</body>
+</html>
